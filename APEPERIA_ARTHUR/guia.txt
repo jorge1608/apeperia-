@@ -1,0 +1,110 @@
+<footer class="rodape container">
+        <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Icone do Facebook"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Icone do Twiter"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Icone do Intagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="#">Sobre</a></li>
+                <li class="rodape__link"><a href="#">Planos</a></li>
+                <li class="rodape__link"><a href="#">Blog</a></li>
+                <li class="rodape__link"><a href="#">Destaques</a></li>
+                <li class="rodape__link"><a href="#">Institucional</a></li>
+                <li class="rodape__link"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+INSTITUCIONAL.CSS
+.institucional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--fonte-cinza);
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.institucional__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 2rem;
+}
+
+.institucional__descricao {
+    margin-bottom: 2rem;
+}
+
+.institucional__endereco {
+    font-size: 1.5rem;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+}
+
+.institucional__contato {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 2rem;
+}
+
+.institucional__contato-telefone {
+    line-height: normal;
+}
+
+.institucional__contato-email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+}
+
+RODAPE.CSS
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--bg-rodape);
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__social {
+    display: flex;
+}
+
+.rodape__midia {
+    display: block;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem 1rem;
+}
+
+.rodape__navegacao {
+    color: var(--branco);
+    text-align: center;
+    line-height: 3;
+}
+
+
+.rodape__link {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}
+
+
